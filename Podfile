@@ -6,5 +6,13 @@ target 'GYDataCenter' do
   # use_frameworks!
 
   # Pods for GYDataCenter
-  pod 'FMDB'
+  pod 'FMDB', "2.6.2"
+end
+
+target 'GYDataCenter-iOS' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for GYDataCenter
+  pod 'FMDB', "2.6.2"
 end
